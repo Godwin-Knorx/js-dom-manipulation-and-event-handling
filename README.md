@@ -12,6 +12,7 @@ These techniques are essential for creating dynamic and interactive web applicat
 -[Usage](#usage)
 -[Contribution](#contribution)
 -[License](#license)
+-[Contact](#contact)
 
 ## Introduction
 
@@ -141,3 +142,8 @@ git push origin new-feature
 ## License
 
 This project is licensed under the MIT License - see [LICENSE](LICENSE.txt) file for details.
+
+## Contact
+
+- GitHub: Godwin-Knorx
+- Email: godwinkiplimochelanga@gmail.com
