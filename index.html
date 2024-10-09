@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <title>DOM Manipulation</title>
+
+    <style>
+      body{
+        background-color: rgb(54, 54, 54);
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-family: 'Open Sans';
+      }
+
+      .container {
+        border: 1px solid black;
+        border-radius: 20px;
+        background-color: rgb(40, 40, 40);
+        min-width: 600px;
+        padding: 20px;
+        margin-top: 300px;
+        box-shadow: 5px 5px 10px rgb(40, 40, 40);
+      }
+
+      #main-heading{
+        text-align: center;
+        margin-top: 0;
+      }
+
+
+      .list-items{
+        color: black;
+        background-color: whitesmoke;
+        margin: 2px 0;
+        text-align: center;
+        list-style: none;
+        width: 94%;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1 id="main-heading">Favourite Snacks</h1>
+      <ul>
+        <li class="list-items">Passion juice</li>
+        <li class="list-items">White chocolate</li>
+        <li class="list-items">Fries</li>
+        <li class="list-items">Apple juice</li>
+        <li class="list-items">Biscuits</li>
+      </ul>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
